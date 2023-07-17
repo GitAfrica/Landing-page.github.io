@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shooting Range - Welcome</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div style="display: flex; align-items: center">
+        <img src="image/bulleteye.jpg" alt="bulleteye" /><span>REB</span>
+        <nav>
+          <a href="#">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#prices">PRICES</a>
+          <a href="#contacts">CONTACTS</a>
+        </nav>
+
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search" />
+          <button onclick="search()">Search</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Rustenburg Explosive Brokers</h1>
+      <h2 class="in-header">Training Academy</h2>
+      <p class="header-paragraph">
+        Experience the thrill of shooting in a safe and controlled environment.
+      </p>
+
+      <div id="about">
+        <h2>ABOUT</h2>
+        <p>
+          We are a premier shooting range that provides a safe and enjoyable
+          environment for shooting enthusiasts of all levels. With
+          state-of-the-art facilities and experienced instructors, we offer a
+          variety of shooting packages tailored to meet the needs of our
+          customers.
+        </p>
+      </div>
+
+      <div id="prices">
+        <div class="price-card">
+          <h3>Basic Package</h3>
+          <p>R1200 per hour</p>
+          <p>Includes firearm rental and safety equipment.</p>
+        </div>
+        <div class="price-card">
+          <h3>Premium Package</h3>
+          <p>R1800 per hour</p>
+          <p>
+            Includes firearm rental, safety equipment, and personal instructor.
+          </p>
+        </div>
+        <div class="price-card">
+          <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drop-in</h3>
+          <p>R500 per ½ hour</p>
+          <p>
+            Includes firearm rental, safety equipment, and personal instructor.
+            <br />
+            If you are not sure this is for you, please consider giving it one
+            try!
+          </p>
+        </div>
+      </div>
+
+      <div class="offer-section">
+        <div class="offer-item">
+          <img
+            src="https://media.istockphoto.com/id/664962380/photo/happy-delighted-girl-looking-into-the-optical-sight.jpg?s=612x612&w=0&k=20&c=G7HS8JhGa0jcQK3OMV0KGJutSMX8pL7BrPnb-W_4mQA="
+            alt="Offer 1"
+          />
+          <p class="package">Special Event Nights</p>
+        </div>
+        <div class="offer-item">
+          <img
+            src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/2a/2e/5d.jpg"
+            alt="Offer 2"
+          />
+          <p class="package">Group Packages</p>
+        </div>
+        <div class="offer-item">
+          <img
+            src="https://csaguns.com/wp-content/uploads/2020/04/image2.jpeg"
+            alt="Offer 3"
+          />
+          <p class="package">Corporate Team Building</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <div class="inner">
+        <h4>Reviews</h4>
+        <div class="border"></div>
+        <div class="row">
+          <div class="col">
+            <div class="review">
+              <img
+                src="https://politics.princeton.edu/sites/default/files/styles/square/public/images/p-5.jpeg?h=87dbaab7&itok=ub6jAL5Q"
+                alt="mark"
+              />
+              <div class="name">Mark Johnson</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>
+                "The shooting range is well-maintained, and the equipment is in
+                great condition. I'll definitely be back!"
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="review">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKPKy9pZf1P8dwJluUv4Y5t8hN7Qm8oh7gPMk340qxGHU7zdlBAmDzZs0_oSoS7Xkm2w&usqp=CAU"
+                alt="jane"
+              />
+              <div class="name">Jane Smith</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>
+                "I had a fantastic time at the shooting range. The instructors
+                were knowledgeable and made me feel safe.
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="review">
+              <img
+                src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/271/Africa-2.png"
+                alt="itu"
+              />
+              <div class="name">Itumeleng Moja</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "I've been to many shooting ranges, and this one stands out for
+                its professionalism and safety"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subscription">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay up to date with our latest news and promotions.</p>
+
+      <form>
+        <input type="email" placeholder="Enter your email address" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="footer-logo">
+        <img src="image/bulleteye.jpg" alt="bulleteye-footer" />
+        <p>REB</p>
+        <br />
+        <br />
+        <i
+          ><span
+            >Business Hours <br />
+            <br />
+            Mon - Fri: 7am - 10pm <br />
+            Saturday: 8am - 10pm <br />
+            Sunday: 8am - 11pm
+          </span></i
+        >
+      </div>
+
+      <div id="contacts">
+        <p class="footer">
+          CONTACT US <br />
+          <br />
+          <a href="tel:014 533 3423">014 533 3423</a> or email
+          <a href="mailto:info@example.com">info@RustenburgEB.com</a>
+        </p>
+
+        <p class="footer">
+          VISIT US <br />
+          <br />
+          1 Gardenia Ave, Protea Park X 2 Rustenburg
+        </p>
+        <p class="footer">Follow us on social media:</p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>Coded by Palesa Mogale</p>
+    </footer>
+  </body>
+</html>
